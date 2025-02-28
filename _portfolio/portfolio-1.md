@@ -1,5 +1,5 @@
 ---
-title: "I NeedH ealing - TPS - PC/Switch"
+title: "I Need Healing - TPS - PC/Switch"
 excerpt: "Project aimed to learn how to use Unreal Engine 5 to create a console game<br/><img src='/images/BuildScreenshots/INeedHealing-TPS/Player HUD.png'>"
 collection: portfolio
 ---

@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
-slidesurl: 'http://mariuspointeau.github.io/files/GameProgrammer_MariusPointeau_CV.pdf'
+paperurl: 'http://mariuspointeau.github.io/files/GameProgrammer_MariusPointeau_CV.pdf'
 ---
 
 <br/><img src='/images/CV.png'>

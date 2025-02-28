@@ -1,7 +1,31 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "I NeedH ealing - TPS - PC/Switch"
+excerpt: "Project aimed to learn how to use Unreal Engine 5 to create a console game<br/><img src='/images/BuildScreenshots/INeedHealing-TPS/Player HUD.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+# Summary
+
+_Console/PC project - Unreal Engine 5.4 - C++_
+
+# Duration
+
+2024/11 - 2024/12
+
+# Skills developed
+
+* Developement kit Switch
+* AI
+    * AI Optimization
+    * Resource management for a large number of AIs
+    * Managing the movement of a large number of AIs
+* Level Design
+* Animation using UE5 tools
+
+# Screenshots
+
+<br/><img src='/images/BuildScreenshots/INeedHealing-TPS/Player HUD.png'>
+<br/><img src='/images/BuildScreenshots/INeedHealing-TPS/StartMenu.png'>
+<br/><img src='/images/BuildScreenshots/INeedHealing-TPS/UpgradeMenu.png'>
+<br/><img src='/images/BuildScreenshots/INeedHealing-TPS/Wave.png'>
+<br/><img src='/images/BuildScreenshots/INeedHealing-TPS/Control.png'>

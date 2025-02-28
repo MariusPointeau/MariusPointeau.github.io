@@ -22,10 +22,10 @@ repository               : "MariusPointeau.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "MP.png"
   name             : "Marius Pointeau"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Love playing games and making them"
   location         : "Paris"
   employer         : "..."
   uri              : # URL
@@ -33,11 +33,11 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "http://google.com"
+  googlescholar    : #"http://google.com"
   impactstory      : # URL
-  orcid            : "http://google.com"
+  orcid            : #"http://google.com"
   semantic         : # URL
-  pubmed           : "http://google.com"
+  pubmed           : #"http://google.com"
   researchgate     : # URL
   scopus           : # URL
 
@@ -50,7 +50,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -78,11 +78,11 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
-    title: 'Books'
+    title: #'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: #'Journal Articles'    
   conferences:
-    title: 'Conference Papers'
+    title: #'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -131,7 +131,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : #&twitter
 facebook:
   username               :
   app_id                 :

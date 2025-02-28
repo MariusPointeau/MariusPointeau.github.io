@@ -8,7 +8,7 @@ date: 2028-01-01
 location: "Paris, France"
 ---
 
-C/C++/C#
-engine developement
-game developement
-AI
+* C/C++/C#
+* engine developement
+* game developement
+* AI

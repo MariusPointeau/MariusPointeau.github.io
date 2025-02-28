@@ -2,7 +2,7 @@
 title: "Teaching experience 2"
 collection: teaching
 type: "Mastère"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /degree/mastère
 venue: "Isart , 75012"
 date: 2028-01-01
 location: "Paris, France"

@@ -22,7 +22,7 @@ repository               : "MariusPointeau.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "MP.png"
+  avatar           : "profile.png"
   name             : "Marius Pointeau"
   pronouns         : # example: "she/her"  
   bio              : "Love playing games and making them"

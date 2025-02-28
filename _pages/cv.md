@@ -60,3 +60,9 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
+---
+title: "CV item number 1"
+excerpt: "Short description of CV item number 1<br/><img src='/images/500x300.png'>"
+collection: cv
+---

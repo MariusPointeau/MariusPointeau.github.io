@@ -7,6 +7,4 @@ redirect_from:
   - /resume
 ---
 
----
-"<br/><img src='/images/CV.png'>"
----
+<br/><img src='/images/CV.png'>

@@ -10,12 +10,3 @@ location: "Fontainebleau, France"
 
 Mathematic
 NSI
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======

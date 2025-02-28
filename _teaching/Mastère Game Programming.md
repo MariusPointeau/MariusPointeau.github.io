@@ -12,12 +12,3 @@ C/C++/C#
 engine developement
 game developement
 AI
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======

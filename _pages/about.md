@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-I'm a student in game programming at [Isart Digital](https://www.isart.fr/).
+I'm a student in second year of game programming at [Isart Digital](https://www.isart.fr/).

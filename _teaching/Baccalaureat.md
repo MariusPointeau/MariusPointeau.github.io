@@ -1,9 +1,9 @@
 ---
-title: "Teaching experience 1"
+title: "Baccalaureat"
 collection: degree
-type: "Baccalaureat"
+type: "Saint-Aspais"
 permalink: /degree/Baccalaureat
-venue: "high school : Saint-Aspais, 77920"
+venue: "77920"
 date: 2023-07-01
 location: "Fontainebleau, France"
 ---

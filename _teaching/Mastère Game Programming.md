@@ -1,9 +1,9 @@
 ---
-title: "Teaching experience 2"
+title: "Mastère Game Programming"
 collection: teaching
-type: "Mastère"
+type: [Isart](https://isart.fr)
 permalink: /degree/mastère
-venue: "Isart , 75012"
+venue: "75012"
 date: 2028-01-01
 location: "Paris, France"
 ---

@@ -24,8 +24,9 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Marius Pointeau"
+  tagline          : "Gameplay & AI Programmer | C++/C# | Unity & Unreal"
   pronouns         : # example: "she/her"  
-  bio              : "Love playing games and making them"
+  bio              : "Second-year game programming student at Isart Digital. Passionate about gameplay, AI, and technical challenges."
   location         : "Paris"
   employer         : "..."
   uri              : # URL

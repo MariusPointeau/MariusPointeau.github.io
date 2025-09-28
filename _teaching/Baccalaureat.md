@@ -1,5 +1,5 @@
 ---
-title: "Baccalaureat"
+title: "French Baccalauréat"
 collection: degree
 type: "Saint-Aspais"
 permalink: /degree/Baccalaureat
@@ -8,5 +8,5 @@ date: 2023-07-01
 location: "Fontainebleau, France"
 ---
 
-* Mathematic
-* NSI
+* Mathematics
+* Computer Science

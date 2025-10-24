@@ -11,7 +11,7 @@ body {
 
 /* Ajouter une image ou une couleur de fond */
 body {
-  background-image: url('/images/background.jpg');
+  background-image: url('/images/mainbackground.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

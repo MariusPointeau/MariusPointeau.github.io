@@ -1,0 +1,20 @@
+---
+---
+
+/* Import d'une font Google */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Appliquer la font à tout le site */
+body {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Ajouter une image ou une couleur de fond */
+body {
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white; /* optionnel si ton image est sombre */
+}

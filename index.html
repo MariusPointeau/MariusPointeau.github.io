@@ -13,17 +13,21 @@
             <div class="container">
                 <nav>
                     <img src="images/logo.png" class="logo">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
+
+                    <ul id="sidemenu">
+                        <i class="fa-solid fa-globe" onclick="toggleLanguage()"></i>
+                        <li><a href="#header" data-i18n="header.home">Home</a></li>
+                        <li><a href="#about" data-i18n="header.about">About</a></li>
+                        <li><a href="#services" data-i18n="header.services">Services</a></li>
+                        <li><a href="#portfolio" data-i18n="header.portfolio">Portfolio</a></li>
+                        <li><a href="#contact" data-i18n="header.contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
                     </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
                 </nav>
                 <div class="header-text">
-                    <p>Game Programmer</p>
-                    <h1>Hi, I'm <span>Marius</span><br>Pointeau from France</h1>
+                    <p data-i18n="header.job">Game Programmer</p>
+                    <h1 data-i18n="header.greeting">Hi, I'm <span>Marius</span><br>Pointeau from France</h1>
                 </div>
             </div>
         </div>
@@ -35,13 +39,13 @@
                         <img src="images/user.png">
                     </div>
                     <div class="about-col-2">
-                        <h1 class="sub-title">About Me</h1>
-                        <p>MOI MOI MOI MOI MOI MOI MOI MOI MOI</p>
+                        <h1 class="sub-title" data-i18n="about.title">About Me</h1>
+                        <p data-i18n="about.description">MOI MOI MOI MOI MOI MOI MOI MOI MOI</p>
 
                         <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links active-link" onclick="opentab('skills')" data-i18n="about.skills">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')" data-i18n="about.experience">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')" data-i18n="about.education">Education</p>
                         </div>
                         <div class="tab-contents active-tab" id = "skills">
                             <ul>
@@ -56,7 +60,7 @@
                         </div>
                         <div class="tab-contents" id="education">
                             <ul>
-                                <li><span>2028</span><br>Mastère Game Programming at Isart DIGITAL</li>
+                                <li data-i18n="about.education.first"><span>2028</span><br>Mastère Game Programming at Isart DIGITAL</li>
                             </ul>
                         </div>
                     </div>
@@ -67,33 +71,97 @@
         <!------------------services-------------------->
         <div id="services">
             <div class="container">
-                <h1 class="sub-title">My Services</h1>
+                <h1 class="sub-title" data-i18n="services.title">My Services</h1>
                 <div class="services-list">
                     <div>
                         <i class="fa-solid fa-code"></i>
-                        <h2>Game Programmer</h2>
-                        <p>aojfhaeiuhhgauiz haiz eagrauihgahuagudazyudgaoagdgzyu,
+                        <h2 data-i18n="services.first">Game Programmer</h2>
+                        <p data-i18n="services.first.description">aojfhaeiuhhgauiz haiz eagrauihgahuagudazyudgaoagdgzyu,
                             aigdzagd uahzdghazdu azdg ad uazgd agdhu.
                         </p>
-                        <a href="#">learn more</a>
+                        <a href="#" data-i18n="learnmore">Learn more</a>
                     </div>
                     <div>
                         <i class="fa-solid fa-robot"></i>
-                        <h2>AI Programmer</h2>
-                        <p>aojfhaeiuhhgauiz haiz eagrauihgahuagudazyudgaoagdgzyu,
+                        <h2 data-i18n="services.second">AI Programmer</h2>
+                        <p data-i18n="services.second.description">aojfhaeiuhhgauiz haiz eagrauihgahuagudazyudgaoagdgzyu,
                             aigdzagd uahzdghazdu azdg ad uazgd agdhu.
                         </p>
-                        <a href="#">learn more</a>
+                        <a href="#" data-i18n="learnmore">Learn more</a>
                     </div>
                     <div>
                         <i class="fa-solid fa-crop-simple"></i>
-                        <h2>UI Programmer</h2>
-                        <p>aojfhaeiuhhgauiz haiz eagrauihgahuagudazyudgaoagdgzyu,
+                        <h2 data-i18n="services.third">UI Programmer</h2>
+                        <p data-i18n="services.third.description">aojfhaeiuhhgauiz haiz eagrauihgahuagudazyudgaoagdgzyu,
                             aigdzagd uahzdghazdu azdg ad uazgd agdhu.
                         </p>
-                        <a href="#">learn more</a>
+                        <a href="#" data-i18n="learnmore">Learn more</a>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!------------------portfolio------------------>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title" data-i18n="portfolio.title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/user.png">
+                        <div class="layer">
+                            <h3 data-i18n="portfolio.firstWork">Poisson1</h3>
+                            <p data-i18n="portfolio.firstWork.description">Le skin poisson agent secret de fortnite</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/user.png">
+                        <div class="layer">
+                            <h3 data-i18n="portfolio.secondWork">Poisson1</h3>
+                            <p data-i18n="portfolio.secondWork.description">Le skin poisson agent secret de fortnite</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/user.png">
+                        <div class="layer">
+                            <h3 data-i18n="portfolio.thirdWork">Poisson1</h3>
+                            <p data-i18n="portfolio.thirdWork.description">Le skin poisson agent secret de fortnite</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn" data-i18n="seemore">See more</a>
+            </div>
+        </div>
+
+        <!------------------contact------------------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title" data-i18n="contact.title">Contact Me</h1>
+                        <p> <i class="fas fa-envelope"></i>pointeaumarius@gmail.com</p>
+                        <p> <i class="fas fa-phone-square-alt"></i>0645425649</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/marius-pointeau-b3a379388"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/MariusPointeau"><i class="fab fa-github"></i></a>
+                        </div>
+                        <a href="images/GameProgrammer_MariusPointeau_CV.pdf" download class="btn btn2" data-i18n="contact.cv">Dowload CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2" data-i18n="contact.submit">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p data-i18n="copyright">Copyright gougou GAGA</p>
             </div>
         </div>
 
@@ -112,5 +180,41 @@
                 document.getElementById(tabname).classList.add("active-tab");
             }
         </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu()
+            {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu()
+            {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyWEQ7nkVMt-0wvmIQ8WTAFAXR_GERX0ltbytqkeAAq8P-atz-R_bEp8FbmiDL3c-g/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg");
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+            })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+        <script src="lang.js"></script>
     </body>
 </html>

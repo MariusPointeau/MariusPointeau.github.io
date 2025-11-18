@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="ProjectStyle.css">
+        <script src="https://kit.fontawesome.com/6e333a71b3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <ul id="sidemenu">
+                        <i class="fa-solid fa-globe" onclick="toggleLanguage()"></i>
+                        <li><a href="../home.html#header" data-i18n="header.home">Home</a></li>
+                        <li><a href="../home.html#about" data-i18n="header.about">About</a></li>
+                        <li><a href="../home.html#services" data-i18n="header.services">Services</a></li>
+                        <li><a href="../home.html#portfolio" data-i18n="header.portfolio">Portfolio</a></li>
+                        <li><a href="../home.html#contact" data-i18n="header.contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p data-i18n="">Project</p>
+                    <h1 data-i18n=""><span>ReviveMeJett</span></h1>
+                </div>
+            </div>
+        </div>
+
+        <!------------------projectContent------------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <video controls width="640">
+                            <source src="../videos/TrailerReviveMeJett.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title" data-i18n="">About</h1>
+                        <p data-i18n="portfolio.firstWork.description">Text is in lang.js</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('tasks')" data-i18n="">Tasks</p>
+                            <p class="tab-links" onclick="opentab('challenges')" data-i18n="">Challenges</p>
+                            <p class="tab-links" onclick="opentab('result')" data-i18n="">Result</p>
+                        </div>
+                        <div class="tab-contents active-tab" id = "tasks">
+                            <ul>
+                                <li data-i18n=""><span>AI</span><br>Managed Resource Management for large scale AI</li>
+                                <li data-i18n=""><span>AI</span><br>Created the AI movement system w/ Behaviour Tree</li>
+                                <li data-i18n=""><span>AI</span><br>Created the AI fighting pattern</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id = "challenges">
+                            <ul>
+                                <li data-i18n=""><span>CONSOLE</span><br>Working with the Nintendo switch developement kit</li>
+                                <li data-i18n=""><span>AI</span><br>Solving Problems with AI collision and target</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="result">
+                            <ul>
+                                <li data-i18n=""><span>AI</span><br>Learned a lot about Behaviour Trees</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!------------------contact------------------>
+        <div id="contact">
+            <div class="copyright">
+                <p data-i18n="copyright">Copyright gougou GAGA</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu()
+            {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu()
+            {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+        <script src="../lang.js"></script>
+    </body>
+</html>

@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image:url(images/background.png);
+    background-image:url(../images/background.png);
     background-size: cover;
     background-position: center;
 }
@@ -121,8 +121,6 @@ nav ul li a:hover::after{
 
 .work img{
     width: 100%;
-    height: 300px;
-    object-fit: cover;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -189,81 +187,84 @@ nav ul li a:hover::after{
     background: #ff004f;
 }
 
-/*-----------contact-----------------*/
+/*-----------projectContent-----------------*/
+
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+
 .row{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.contact-left{
+.about-col-1{
     flex-basis: 35%;
 }
-
-.contact-left p{
-    margin-top: 30px;
+.about-col-1 video{
+    width: 100%;
+    border-radius: 15px;
 }
 
-.contact-left p i{
-    color: #ff004f;
-    margin-right: 15px;
-    font-size: 25px;
-}
-
-.social-icons{
-    margin-top: 30px;
-}
-
-.social-icons a{
-    text-decoration: none;
-    font-size: 30px;
-    margin-right: 15px;
-    color: #ababab;
-    display: inline-block;
-    transition: transform 0.5s;
-}
-
-.social-icons a:hover{
-    color: #ff004f;
-    transform: translateY(-5px);
-}
-
-.btn.btn2{
-    display: inline-block;
-    background: #ff004f;
-}
-
-.contact-right{
+.about-col-2{
     flex-basis: 60%;
 }
 
-.contact-right form{
-    width: 100%;
-}
-form input, form textarea{
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: #262626;
-    padding: 15px;
-    margin: 15px 0;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 6px;
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffff;
 }
 
-form .btn2{
-    padding: 14px 60px;
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
     font-size: 18px;
-    margin-top: 20px;
+    font-weight: 500;
     cursor: pointer;
+    position: relative;
 }
 
-#msg{
-    color: #61b752;
-    margin-top: -40px;
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-contents ul li span{
+    color: #b54769;
+    font-size: 14px;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
     display: block;
 }
+
+/*-----------contact-----------------*/
 
 .copyright{
     width: 100%;
@@ -281,7 +282,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phoneBackground.png);
+        background-image: url(../images/phoneBackground.png);
     }
     .header-text{
         margin-top: 100%;

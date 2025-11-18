@@ -5,98 +5,27 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Personal Portfolio Website</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="projectsStyle.css">
         <script src="https://kit.fontawesome.com/6e333a71b3.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div id="header">
             <div class="container">
                 <nav>
-                    <img src="images/logo.png" class="logo">
-
                     <ul id="sidemenu">
                         <i class="fa-solid fa-globe" onclick="toggleLanguage()"></i>
-                        <li><a href="#header" data-i18n="header.home">Home</a></li>
-                        <li><a href="#about" data-i18n="header.about">About</a></li>
-                        <li><a href="#services" data-i18n="header.services">Services</a></li>
-                        <li><a href="#portfolio" data-i18n="header.portfolio">Portfolio</a></li>
-                        <li><a href="#contact" data-i18n="header.contact">Contact</a></li>
+                        <li><a href="home.html#header" data-i18n="header.home">Home</a></li>
+                        <li><a href="home.html#about" data-i18n="header.about">About</a></li>
+                        <li><a href="home.html#services" data-i18n="header.services">Services</a></li>
+                        <li><a href="home.html#portfolio" data-i18n="header.portfolio">Portfolio</a></li>
+                        <li><a href="home.html#contact" data-i18n="header.contact">Contact</a></li>
                         <i class="fas fa-times" onclick="closemenu()"></i>
                     </ul>
                     <i class="fas fa-bars" onclick="openmenu()"></i>
                 </nav>
                 <div class="header-text">
-                    <p data-i18n="header.job">Game Programmer</p>
-                    <h1 data-i18n="header.greeting">Hi, I'm <span>Marius</span><br>Pointeau from France</h1>
-                </div>
-            </div>
-        </div>
-        <!------------about--------------->
-        <div id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="images/user.png">
-                    </div>
-                    <div class="about-col-2">
-                        <h1 class="sub-title" data-i18n="about.title">About Me</h1>
-                        <p data-i18n="about.description">MOI MOI MOI MOI MOI MOI MOI MOI MOI</p>
-
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')" data-i18n="about.skills">Skills</p>
-                            <p class="tab-links" onclick="opentab('experience')" data-i18n="about.experience">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')" data-i18n="about.education">Education</p>
-                        </div>
-                        <div class="tab-contents active-tab" id = "skills">
-                            <ul>
-                                <li><span>Game</span><br>Programming</li>
-                                <li><span>AI</span><br>Programming</li>
-                                <li><span>UI</span><br>Programming</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id = "experience">
-                            <ul>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li data-i18n="about.education.first"><span>2028</span><br>Mastère Game Programming at Isart DIGITAL</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!------------------services-------------------->
-        <div id="services">
-            <div class="container">
-                <h1 class="sub-title" data-i18n="services.title">My Services</h1>
-                <div class="services-list">
-                    <div>
-                        <i class="fa-solid fa-code"></i>
-                        <h2 data-i18n="services.first">Game Programmer</h2>
-                        <p data-i18n="services.first.description">aojfhaeiuhhgauiz haiz eagrauihgahuagudazyudgaoagdgzyu,
-                            aigdzagd uahzdghazdu azdg ad uazgd agdhu.
-                        </p>
-                        <a href="#" data-i18n="learnmore">Learn more</a>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-robot"></i>
-                        <h2 data-i18n="services.second">AI Programmer</h2>
-                        <p data-i18n="services.second.description">aojfhaeiuhhgauiz haiz eagrauihgahuagudazyudgaoagdgzyu,
-                            aigdzagd uahzdghazdu azdg ad uazgd agdhu.
-                        </p>
-                        <a href="#" data-i18n="learnmore">Learn more</a>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-crop-simple"></i>
-                        <h2 data-i18n="services.third">UI Programmer</h2>
-                        <p data-i18n="services.third.description">aojfhaeiuhhgauiz haiz eagrauihgahuagudazyudgaoagdgzyu,
-                            aigdzagd uahzdghazdu azdg ad uazgd agdhu.
-                        </p>
-                        <a href="#" data-i18n="learnmore">Learn more</a>
-                    </div>
+                    <p data-i18n="">Projects</p>
+                    <h1 data-i18n="">Here are my projects</h1>
                 </div>
             </div>
         </div>
@@ -109,29 +38,76 @@
                     <div class="work">
                         <img src="images/user.png">
                         <div class="layer">
-                            <h3 data-i18n="portfolio.firstWork">Poisson1</h3>
-                            <p data-i18n="portfolio.firstWork.description">Le skin poisson agent secret de fortnite</p>
+                            <h3 data-i18n="portfolio.firstWork">Project1</h3>
+                            <p data-i18n="portfolio.firstWork.description">Text is in lang.js</p>
                             <a href="#"><i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                     <div class="work">
                         <img src="images/user.png">
                         <div class="layer">
-                            <h3 data-i18n="portfolio.secondWork">Poisson1</h3>
-                            <p data-i18n="portfolio.secondWork.description">Le skin poisson agent secret de fortnite</p>
+                            <h3 data-i18n="portfolio.secondWork">Project2</h3>
+                            <p data-i18n="portfolio.secondWork.description">Text is in lang.js</p>
                             <a href="#"><i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                     <div class="work">
                         <img src="images/user.png">
                         <div class="layer">
-                            <h3 data-i18n="portfolio.thirdWork">Poisson1</h3>
-                            <p data-i18n="portfolio.thirdWork.description">Le skin poisson agent secret de fortnite</p>
+                            <h3 data-i18n="portfolio.thirdWork">Project3</h3>
+                            <p data-i18n="portfolio.thirdWork.description">Text is in lang.js</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/user.png">
+                        <div class="layer">
+                            <h3 data-i18n="portfolio.firstWork">Project1</h3>
+                            <p data-i18n="portfolio.firstWork.description">Text is in lang.js</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/user.png">
+                        <div class="layer">
+                            <h3 data-i18n="portfolio.secondWork">Project2</h3>
+                            <p data-i18n="portfolio.secondWork.description">Text is in lang.js</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/user.png">
+                        <div class="layer">
+                            <h3 data-i18n="portfolio.thirdWork">Project3</h3>
+                            <p data-i18n="portfolio.thirdWork.description">Text is in lang.js</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/user.png">
+                        <div class="layer">
+                            <h3 data-i18n="portfolio.firstWork">Project1</h3>
+                            <p data-i18n="portfolio.firstWork.description">Text is in lang.js</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/user.png">
+                        <div class="layer">
+                            <h3 data-i18n="portfolio.secondWork">Project2</h3>
+                            <p data-i18n="portfolio.secondWork.description">Text is in lang.js</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/user.png">
+                        <div class="layer">
+                            <h3 data-i18n="portfolio.thirdWork">Project3</h3>
+                            <p data-i18n="portfolio.thirdWork.description">Text is in lang.js</p>
                             <a href="#"><i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn" data-i18n="seemore">See more</a>
             </div>
         </div>
 

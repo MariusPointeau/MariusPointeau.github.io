@@ -7,7 +7,7 @@ const translations = {
     "header.contact": "Contact",
 
     "header.job": "Game Programmer",
-    "header.greeting": "Hi, I'm <span>Marius</span><br>Pointeau from France",
+    "header.greeting": "Hi, I'm <span>Marius</span> Pointeau<br> from France",
 
     "about.title": "About Me",
     "about.description": "Third-year game programmer at Isart DIGITAL particularly interested in video game AI",
@@ -96,7 +96,7 @@ const translations = {
     "about.skills.ui": "<span>UI</span><br> Unity/Unreal UI<br> ImGui Pour Moteur Custom",
     "about.experience": "Expérience",
     "about.education": "Formation",
-    "about.education.first" : "<span>2028</span><br>Mastère Progammation de jeu vidéo à Isart DIGITAL",
+    "about.education.first" : "<span>2028</span><br>Master Progammation de jeu vidéo à Isart DIGITAL",
 
     "services.title": "Mes services",
     "services.first": "Programmeur de jeu vidéo",

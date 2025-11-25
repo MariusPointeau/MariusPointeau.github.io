@@ -43,6 +43,39 @@ const translations = {
 
     "learnmore": "Learn more",
     "seemore": "See more",
+
+
+
+
+    "projects.menu" : "Projects",
+    "projects.prez" : "Here are my projects",
+
+    "project.menu" : "Project",
+    "project.tasks" : "Tasks",
+    "project.challenges" : "Challenges",
+    "project.result" : "Result",
+
+
+    "rmj.task1" : "<span>AI</span><br>Managed Resource Management for large scale AI",
+    "rmj.task2" : "<span>AI</span><br>Created the AI movement system w/ Behaviour Tree",
+    "rmj.task3" : "<span>AI</span><br>Created the AI fighting pattern",
+
+    "rmj.challenges1" : "<span>CONSOLE</span><br>Working with the Nintendo switch developement kit",
+    "rmj.challenges2" : "<span>AI</span><br>Solving Problems with AI collision and target",
+
+    "rmj.result1" : "<span>AI</span><br>Learned a lot about Behaviour Trees and AI in general",
+
+
+    "gmp.task1" : "<span>AI</span><br>Modified AI links to create realistic jump",
+    "gmp.task2" : "<span>AI</span><br>Made the character's point and click movement",
+    "gmp.task3" : "<span>MUSIC</span><br>Added the music and sound designed by the sound designer",
+
+    "gmp.challenges1" : "<span>MUSIC</span><br>Play different layer of music and cut them one by one",
+    "gmp.challenges2" : "<span>RENDERING</span><br>Make an outline for the interactable objects",
+
+    "gmp.result1" : "<span>MUSIC</span><br>I improved my sound manager system with the gestion of different layer of music",
+    "gmp.result2" : "<span>AI</span><br>I learned how to modify the AI links in unity",
+    "gmp.result3" : "<span>RENDERING</span><br>Unity didn't support the outline created and the lack of time made me cut the feature",
   },
 
   fr: {
@@ -85,10 +118,40 @@ const translations = {
     "contact.cv": "Télécharger le CV",
     "contact.submit": "Envoyer",
 
-    "copyright" : "Copyright gougou GAGA",
+    "copyright" : "Copyright Marius",
 
     "learnmore": "En savoir plus",
     "seemore": "Voir plus",
+
+    "projects.menu" : "Projets",
+    "projects.prez" : "Voici mes projets",
+
+    "project.menu" : "Preojet",
+    "project.tasks" : "Tâches",
+    "project.challenges" : "Challenges",
+    "project.result" : "Résultat",
+
+
+    "rmj.task1" : "<span>IA</span><br>Gestion des ressources gérées pour l'IA à grande échelle",
+    "rmj.task2" : "<span>IA</span><br>Création du système de mouvement IA avec Behaviour Tree",
+    "rmj.task3" : "<span>IA</span><br>Création du modèle de combat IA",
+
+    "rmj.challenges1" : "<span>CONSOLE</span><br>Travailler avec le kit de développement Nintendo Switch",
+    "rmj.challenges2" : "<span>IA</span><br>Résolution des problèmes liés aux collisions et aux cibles dans l'IA",
+
+    "rmj.result1" : "<span>AI</span><br>J'ai beaucoup appris sur les arbres de comportement et l'IA en général.",
+
+
+    "gmp.task1" : "<span>IA</span><br>AI Links modifiés pour créer des sauts réalistes",
+    "gmp.task2" : "<span>IA</span><br>Création du mouvement point and click du personnage",
+    "gmp.task3" : "<span>MUSIC</span><br>Ajout de la musique et des effets sonores conçus par le sound designer.",
+
+    "gmp.challenges1" : "<span>MUSIC</span><br>Jouez différentes couches musicales et coupez-les une par une.",
+    "gmp.challenges2" : "<span>RENDU</span><br>Faire un contour pour les objets interactifs.",
+
+    "gmp.result1" : "<span>MUSIC</span><br>J'ai amélioré mon système de gestion du son grâce à la gestion de différentes couches musicales.",
+    "gmp.result2" : "<span>IA</span><br>J'ai appris à modifier les AI Links dans Unity",
+    "gmp.result3" : "<span>RENDU</span><br>Unity ne prenait pas en charge le contour créé et le manque de temps m'a obligé à supprimer cette fonctionnalité.",
   }
 };
 

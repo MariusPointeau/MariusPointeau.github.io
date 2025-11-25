@@ -267,6 +267,11 @@ nav ul li a:hover::after{
 
 /*-----------contact-----------------*/
 
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+}
+
 .copyright{
     width: 100%;
     text-align: center;

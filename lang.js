@@ -25,7 +25,7 @@ const translations = {
     "services.second": "AI Programmer",
     "services.second.description": "A* algorithm",
     "services.third": "UI Programmer",
-    "services.third.description": "Plein de trucs trop bien en UI la folie",
+    "services.third.description": "Unity UI, Unreal UI, ImGUI",
 
     "portfolio.title": "My Work",
     "portfolio.firstWork": "I Need Healing",
@@ -71,7 +71,7 @@ const translations = {
     "services.second": "Programmeur IA",
     "services.second.description": "A* algorithm",
     "services.third": "Programmeur UI",
-    "services.third.description": "Plein de trucs trop bien en UI la folie",
+    "services.third.description": "Unity UI, Unreal UI, ImGUI",
 
     "portfolio.title": "Mes travaux",
     "portfolio.firstWork": "I Need Healing",

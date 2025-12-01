@@ -21,9 +21,9 @@ const translations = {
 
     "services.title": "My Services",
     "services.first": "Game Programmer",
-    "services.first.description": "C, C++, C#, Unity, Unreal",
+    "services.first.description": "C, C++, C#, Python, Unity, Unreal",
     "services.second": "AI Programmer",
-    "services.second.description": "A* algorithm",
+    "services.second.description": "A* algorithm, Steering, Behavior Tree, State Machine",
     "services.third": "UI Programmer",
     "services.third.description": "Unity UI, Unreal UI, ImGUI",
 
@@ -39,7 +39,7 @@ const translations = {
     "contact.cv": "Download CV",
     "contact.submit": "Submit",
 
-    "copyright" : "Copyright gougou GAGA",
+    "copyright" : "Copyright Marius Pointeau",
 
     "learnmore": "Learn more",
     "seemore": "See more",
@@ -76,6 +76,18 @@ const translations = {
     "gmp.result1" : "<span>MUSIC</span><br>I improved my sound manager system with the gestion of different layer of music",
     "gmp.result2" : "<span>AI</span><br>I learned how to modify the AI links in unity",
     "gmp.result3" : "<span>RENDERING</span><br>Unity didn't support the outline created and the lack of time made me cut the feature",
+
+    "irisengine.description" : "Custom Game Engine in C++",
+
+    "iris.task1" : "<span>UI</span><br>Created the entire editor UI",
+    "iris.task2" : "<span>Input</span><br>Created the input handler in editor and game",
+    "iris.task3" : "<span>SOFTWARE BUILD SYSTEM</span><br>Linked everything with CMake",
+
+    "iris.challenges1" : "<span>UI</span><br>Connecting the editor to the engine",
+    "iris.challenges2" : "<span>SOFTWARE BUILD SYSTEM</span><br>Understanding CMake",
+
+    "iris.result1" : "<span>SOFTWARE BUILD SYSTEM</span><br>Project can be built easily",
+    "iris.result2" : "<span>OPTIMIZATION</span><br>No memory leak",
   },
 
   fr: {
@@ -102,7 +114,7 @@ const translations = {
     "services.first": "Programmeur de jeu vidéo",
     "services.first.description": "C, C++, C#, Unity, Unreal",
     "services.second": "Programmeur IA",
-    "services.second.description": "A* algorithm",
+    "services.second.description": "A* algorithm, Steering, Behavior Tree, State Machine",
     "services.third": "Programmeur UI",
     "services.third.description": "Unity UI, Unreal UI, ImGUI",
 
@@ -118,7 +130,7 @@ const translations = {
     "contact.cv": "Télécharger le CV",
     "contact.submit": "Envoyer",
 
-    "copyright" : "Copyright Marius",
+    "copyright" : "Copyright Marius Pointeau",
 
     "learnmore": "En savoir plus",
     "seemore": "Voir plus",
@@ -126,7 +138,7 @@ const translations = {
     "projects.menu" : "Projets",
     "projects.prez" : "Voici mes projets",
 
-    "project.menu" : "Preojet",
+    "project.menu" : "Projet",
     "project.tasks" : "Tâches",
     "project.challenges" : "Challenges",
     "project.result" : "Résultat",
@@ -152,6 +164,18 @@ const translations = {
     "gmp.result1" : "<span>MUSIC</span><br>J'ai amélioré mon système de gestion du son grâce à la gestion de différentes couches musicales.",
     "gmp.result2" : "<span>IA</span><br>J'ai appris à modifier les AI Links dans Unity",
     "gmp.result3" : "<span>RENDU</span><br>Unity ne prenait pas en charge le contour créé et le manque de temps m'a obligé à supprimer cette fonctionnalité.",
+
+    "irisengine.description" : "Moteur de jeu custom in C++",
+
+    "iris.task1" : "<span>UI</span><br>Créer l'UI de l'editeur",
+    "iris.task2" : "<span>Input</span><br>Créer le gestionnaire d'input pour le moteur et l'éditeur",
+    "iris.task3" : "<span>SOFTWARE BUILD SYSTEM</span><br>Relier les libraries avec le projet avec CMake",
+
+    "iris.challenges1" : "<span>UI</span><br>Connecter l'éditeur et le moteur",
+    "iris.challenges2" : "<span>SOFTWARE BUILD SYSTEM</span><br>Comprendre l'utilisation de CMake",
+
+    "iris.result1" : "<span>SOFTWARE BUILD SYSTEM</span><br>Le projet peut être build facilement",
+    "iris.result2" : "<span>OPTIMISATION</span><br>Aucune fuite mémoire",
   }
 };
 

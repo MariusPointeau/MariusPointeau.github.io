@@ -88,6 +88,16 @@ const translations = {
 
     "iris.result1" : "<span>SOFTWARE BUILD SYSTEM</span><br>Project can be built easily",
     "iris.result2" : "<span>OPTIMIZATION</span><br>No memory leak",
+
+    "hw.description" : "Ubisoft Game Jam Game with Unity C#",
+
+    "hw.task1" : "<span>MATH</span><br>Made the trajectory for the drops and the ship",
+    "hw.task2" : "<span>SPRITE</span><br>Placed the sprites created by the game artists",
+
+    "hw.challenges1" : "<span>TIME</span><br>Make a playable game in 1 and a half week",
+    "hw.challenges2" : "<span>THEME</span><br>Be as close as possible to the theme : “Weathering the Storms: From Preparation to Action to Reconstruction.”",
+
+    "hw.result1" : "<span>RETURNS</span><br>A lot of good returns about the gameplay and art style of the game",
   },
 
   fr: {
@@ -165,7 +175,7 @@ const translations = {
     "gmp.result2" : "<span>IA</span><br>J'ai appris à modifier les AI Links dans Unity",
     "gmp.result3" : "<span>RENDU</span><br>Unity ne prenait pas en charge le contour créé et le manque de temps m'a obligé à supprimer cette fonctionnalité.",
 
-    "irisengine.description" : "Moteur de jeu custom in C++",
+    "irisengine.description" : "Moteur de jeu custom en C++",
 
     "iris.task1" : "<span>UI</span><br>Créer l'UI de l'editeur",
     "iris.task2" : "<span>Input</span><br>Créer le gestionnaire d'input pour le moteur et l'éditeur",
@@ -176,6 +186,16 @@ const translations = {
 
     "iris.result1" : "<span>SOFTWARE BUILD SYSTEM</span><br>Le projet peut être build facilement",
     "iris.result2" : "<span>OPTIMISATION</span><br>Aucune fuite mémoire",
+
+    "hw.description" : "Jeu de gamejam Ubisoft sur Unity C#",
+
+    "hw.task1" : "<span>MATH</span><br>Fait les trajectoires des drops et le mouvement du vaisseau",
+    "hw.task2" : "<span>SPRITE</span><br>Placé les sprites fait par les artistes",
+
+    "hw.challenges1" : "<span>TEMPS</span><br>Faire un jeu un tant soit peu jouable en 1 semaine et demi",
+    "hw.challenges2" : "<span>THEME</span><br>Respecter le thème donné : « Faire face aux tempêtes : de la préparation à l’action, jusqu’à la reconstruction »",
+
+    "hw.result1" : "<span>RETOURS</span><br>Beaucoup de retours positif a propos du gameplay et du style graphique",
   }
 };
 

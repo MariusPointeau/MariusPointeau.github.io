@@ -98,6 +98,15 @@ const translations = {
     "hw.challenges2" : "<span>THEME</span><br>Be as close as possible to the theme : “Weathering the Storms: From Preparation to Action to Reconstruction.”",
 
     "hw.result1" : "<span>RETURNS</span><br>A lot of good returns about the gameplay and art style of the game",
+
+    "ecoasis.description" : "Research project on the creation of an ecosystem",
+
+    "ecoasis.task1" : "<span>AI</span><br>Made the State Tree and tasks of the animal agents",
+
+    "ecoasis.challenges1" : "<span>AI</span><br> The State Trees are not well documented as of now",
+    "ecoasis.challenges2" : "<span>AI</span><br> Make a realistic life simulation within 2 month",
+
+    "ecoasis.result1" : "<span>AI</span><br> The animals really seems to interact with each other and make a natural hierarchy",
   },
 
   fr: {
@@ -196,6 +205,15 @@ const translations = {
     "hw.challenges2" : "<span>THEME</span><br>Respecter le thème donné : « Faire face aux tempêtes : de la préparation à l’action, jusqu’à la reconstruction »",
 
     "hw.result1" : "<span>RETOURS</span><br>Beaucoup de retours positif a propos du gameplay et du style graphique",
+
+    "ecoasis.description" : "Projet de recherche sur la création d'un écosystème",
+
+    "ecoasis.task1" : "<span>IA</span><br>Création du State Tree et des tâches des IA",
+
+    "ecoasis.challenges1" : "<span>IA</span><br> Pour l'instant, la documentation sur les State Trees n'est pas très claire ni très accessible",
+    "ecoasis.challenges2" : "<span>IA</span><br> Faire une simulation réaliste en 2 mois",
+
+    "ecoasis.result1" : "<span>IA</span><br> Les animaux ont vraiment l'air d'interagir entre eux et de former une hiérarchie naturelle",
   }
 };
 

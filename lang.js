@@ -28,12 +28,6 @@ const translations = {
     "services.third.description": "Unity UI, Unreal UI, ImGUI",
 
     "portfolio.title": "My Work",
-    "portfolio.firstWork": "I Need Healing",
-    "portfolio.firstWork.description": "TPS Console game on Unreal Engine 5.4 using C++ and blueprint",
-    "portfolio.secondWork": "Guide me to the Paradise",
-    "portfolio.secondWork.description": "PC game made in Game Week at Isart DIGITAL on unity 6",
-    "portfolio.thirdWork": "TPS Multiplayer",
-    "portfolio.thirdWork.description": "PC game made with Unreal Engine 5.6 using C++ and blueprint",
 
     "contact.title": "Contact Me",
     "contact.cv": "Download CV",
@@ -56,6 +50,9 @@ const translations = {
     "project.result" : "Result",
 
 
+    "rmj.name" : "I Need Healing",
+    "rmj.description" : "TPS Console game on Unreal Engine 5.4 using C++ and blueprint",
+
     "rmj.task1" : "<span>AI</span><br>Managed Resource Management for large scale AI",
     "rmj.task2" : "<span>AI</span><br>Created the AI movement system w/ Behaviour Tree",
     "rmj.task3" : "<span>AI</span><br>Created the AI fighting pattern",
@@ -65,6 +62,8 @@ const translations = {
 
     "rmj.result1" : "<span>AI</span><br>Learned a lot about Behaviour Trees and AI in general",
 
+    "gmp.name" : "Guide me to the Paradise",
+    "gmp.description" : "PC game made in Game Week at Isart DIGITAL on unity 6",
 
     "gmp.task1" : "<span>AI</span><br>Modified AI links to create realistic jump",
     "gmp.task2" : "<span>AI</span><br>Made the character's point and click movement",
@@ -77,6 +76,7 @@ const translations = {
     "gmp.result2" : "<span>AI</span><br>I learned how to modify the AI links in unity",
     "gmp.result3" : "<span>RENDERING</span><br>Unity didn't support the outline created and the lack of time made me cut the feature",
 
+    "irisengine.name" : "Iris Engine",
     "irisengine.description" : "Custom Game Engine in C++",
 
     "iris.task1" : "<span>UI</span><br>Created the entire editor UI",
@@ -89,6 +89,10 @@ const translations = {
     "iris.result1" : "<span>SOFTWARE BUILD SYSTEM</span><br>Project can be built easily",
     "iris.result2" : "<span>OPTIMIZATION</span><br>No memory leak",
 
+    "tps.name" : "TPS Multiplayer",
+    "tps.description" : "Multiplayer PC game made with Unreal Engine 5.6 using C++ and blueprint",
+
+    "hw.name" : "Horizon Weaver (Ubisoft Game Jam)",
     "hw.description" : "Ubisoft Game Jam Game with Unity C#",
 
     "hw.task1" : "<span>MATH</span><br>Made the trajectory for the drops and the ship",
@@ -99,6 +103,7 @@ const translations = {
 
     "hw.result1" : "<span>RETURNS</span><br>A lot of good returns about the gameplay and art style of the game",
 
+    "ecoasis.name" : "Ecoasis",
     "ecoasis.description" : "Research project on the creation of an ecosystem",
 
     "ecoasis.task1" : "<span>AI</span><br>Made the State Tree and tasks of the animal agents",
@@ -138,12 +143,6 @@ const translations = {
     "services.third.description": "Unity UI, Unreal UI, ImGUI",
 
     "portfolio.title": "Mes travaux",
-    "portfolio.firstWork": "I Need Healing",
-    "portfolio.firstWork.description": "Jeu console en TPS sur Unreal Engine en C++ et blueprint",
-    "portfolio.secondWork": "Guide me to the Paradise",
-    "portfolio.secondWork.description": "Jeu pc fait pendant la game week de troisième année à Isart DIGITAL sur unity 6",
-    "portfolio.thirdWork": "TPS Multiplayer",
-    "portfolio.thirdWork.description": "Jeu pc fait sur Unreal Engine 5.6 en C++ et blueprint",
 
     "contact.title": "Contactez-moi",
     "contact.cv": "Télécharger le CV",
@@ -162,6 +161,8 @@ const translations = {
     "project.challenges" : "Challenges",
     "project.result" : "Résultat",
 
+    "rmj.name" : "I Need Healing",
+    "rmj.description" : "Jeu console en TPS sur Unreal Engine en C++ et blueprint",
 
     "rmj.task1" : "<span>IA</span><br>Gestion des ressources gérées pour l'IA à grande échelle",
     "rmj.task2" : "<span>IA</span><br>Création du système de mouvement IA avec Behaviour Tree",
@@ -172,6 +173,8 @@ const translations = {
 
     "rmj.result1" : "<span>AI</span><br>J'ai beaucoup appris sur les arbres de comportement et l'IA en général.",
 
+    "gmp.name" : "Guide me to the Paradise",
+    "gmp.description" : "Jeu pc fait pendant la game week de troisième année à Isart DIGITAL sur unity 6",
 
     "gmp.task1" : "<span>IA</span><br>AI Links modifiés pour créer des sauts réalistes",
     "gmp.task2" : "<span>IA</span><br>Création du mouvement point and click du personnage",
@@ -184,6 +187,7 @@ const translations = {
     "gmp.result2" : "<span>IA</span><br>J'ai appris à modifier les AI Links dans Unity",
     "gmp.result3" : "<span>RENDU</span><br>Unity ne prenait pas en charge le contour créé et le manque de temps m'a obligé à supprimer cette fonctionnalité.",
 
+    "irisengine.name" : "Iris Engine",
     "irisengine.description" : "Moteur de jeu custom en C++",
 
     "iris.task1" : "<span>UI</span><br>Créer l'UI de l'editeur",
@@ -196,6 +200,10 @@ const translations = {
     "iris.result1" : "<span>SOFTWARE BUILD SYSTEM</span><br>Le projet peut être build facilement",
     "iris.result2" : "<span>OPTIMISATION</span><br>Aucune fuite mémoire",
 
+    "tps.name" : "TPS Multiplayer",
+    "tps.description" : "Jeu pc multijoueur fait sur Unreal Engine 5.6 en C++ et blueprint",
+
+    "hw.name" : "Horizon Weaver (Ubisoft Game Jam)",
     "hw.description" : "Jeu de gamejam Ubisoft sur Unity C#",
 
     "hw.task1" : "<span>MATH</span><br>Fait les trajectoires des drops et le mouvement du vaisseau",
@@ -206,6 +214,7 @@ const translations = {
 
     "hw.result1" : "<span>RETOURS</span><br>Beaucoup de retours positif a propos du gameplay et du style graphique",
 
+    "ecoasis.name" : "Ecoasis",
     "ecoasis.description" : "Projet de recherche sur la création d'un écosystème",
 
     "ecoasis.task1" : "<span>IA</span><br>Création du State Tree et des tâches des IA",

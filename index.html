@@ -49,9 +49,9 @@
                         </div>
                         <div class="tab-contents active-tab" id = "skills">
                             <ul>
-                                <li data-i18n="about.skills.gameprogramming"><span>Game</span><br>Programming</li>
-                                <li data-i18n="about.skills.ai"><span>AI</span><br>Programming</li>
-                                <li data-i18n="about.skills.ui"><span>UI</span><br>Programming</li>
+                                <li data-i18n="about.skills.programmingLanguages"><span>Game</span><br>Programming</li>
+                                <li data-i18n="about.skills.gameEngine"><span>AI</span><br>Programming</li>
+                                <li data-i18n="about.skills.versioning"><span>UI</span><br>Programming</li>
                             </ul>
                         </div>
                         <div class="tab-contents" id = "experience">
@@ -99,32 +99,7 @@
         <div id="portfolio">
             <div class="container">
                 <h1 class="sub-title" data-i18n="portfolio.title">My Work</h1>
-                <div class="work-list">
-                    <div class="work">
-                        <img src="images/Ecoasis.png">
-                        <div class="layer">
-                            <h3 data-i18n="ecoasis.name">Poisson1</h3>
-                            <p data-i18n="ecoasis.description">Le skin poisson agent secret de fortnit</p>
-                            <a href="Projects/Ecoasis.html"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="work">
-                        <img src="images/hw.png">
-                        <div class="layer">
-                            <h3 data-i18n="hw.name">Poisson1</h3>
-                            <p data-i18n="hw.description">Le skin poisson agent secret de fortnit</p>
-                            <a href="Projects/HorizonWeaver.html"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="work">
-                        <img src="images/MenuGMTTP.png">
-                        <div class="layer">
-                            <h3 data-i18n="gmp.name">Poisson1</h3>
-                            <p data-i18n="gmp.description">Le skin poisson agent secret de fortnite</p>
-                            <a href="Projects/GuideMeToTheParadise.html"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
+                <div class="work-list" id="preview-list"></div>
                 <a href="projects.html" class="btn" data-i18n="seemore">See more</a>
             </div>
         </div>
@@ -208,7 +183,7 @@
                 .catch(error => console.error('Error!', error.message))
             })
         </script>
-
+        <script src="projects.js"></script>
         <script src="lang.js"></script>
     </body>
 </html>

@@ -16,6 +16,7 @@ const translations = {
     "about.skills.gameEngine": "<span>Game Engine</span><br> Unreal Engine : C++ / Blueprint / Behaviour Tree / State Tree / Animation <br> Unity : C# / UI / Animation / New Input System",
     "about.skills.versioning": "<span>Versioning</span><br> Git bash, Fork, Perforce",
     "about.experience": "Experience",
+    "about.experience.cnrs": "<span>CNRS</span><br>Development of a Unity tool incorporating AI to analyze urban data.</br> <br>Automated processing of more than 45,000 images and detection of over 20,000 windows with accuracy to the nearest meter.</br> <br>Generation of a 9 km² 3D environment, followed by export to Unreal Engine to perform visibility analyses.</br>",
     "about.education": "Education",
     "about.education.first" : "<span>2028</span><br>Master Game Programming at Isart DIGITAL",
 
@@ -33,7 +34,7 @@ const translations = {
     "contact.cv": "Download CV",
     "contact.submit": "Submit",
 
-    "copyright" : "Copyright Marius Pointeau",
+    "copyright" : "Copyright 2024-2026 Marius Pointeau. All Rights Reserved.",
 
     "learnmore": "Learn more",
     "seemore": "See more",
@@ -131,6 +132,7 @@ const translations = {
     "about.skills.gameEngine": "<span>Moteur de jeu</span><br> Unreal Engine : C++ / Blueprint / Behaviour Tree / State Tree / Animation <br> Unity : C# / UI / Animation / New Input System",
     "about.skills.versioning": "<span>Versioning</span><br> Git bash, Fork, Perforce",
     "about.experience": "Expérience",
+    "about.experience.cnrs": "<span>CNRS</span><br>Développement d’un outil Unity intégrant de l’IA pour analyser des données urbaines.</br> <br>Automatisation du traitement de plus de 45 000 images et détection de 20 000+ fenêtres avec une précision au mètre près.</br> <br>Génération d’un environnement 3D de 9 km² puis export vers Unreal Engine pour réaliser des analyses de visibilité.</br>",
     "about.education": "Formation",
     "about.education.first" : "<span>2028</span><br>Master Progammation de jeu vidéo à Isart DIGITAL",
 
@@ -148,7 +150,7 @@ const translations = {
     "contact.cv": "Télécharger le CV",
     "contact.submit": "Envoyer",
 
-    "copyright" : "Copyright Marius Pointeau",
+    "copyright" : "Copyright 2024-2026 Marius Pointeau. Tous droits réservés.",
 
     "learnmore": "En savoir plus",
     "seemore": "Voir plus",

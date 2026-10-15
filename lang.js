@@ -10,7 +10,7 @@ const translations = {
     "header.greeting": "Hi, I'm <span>Marius</span> Pointeau<br> from France",
 
     "about.title": "About Me",
-    "about.description": "Third-year game programmer at ISART Digital particularly interested in video game AI",
+    "about.description": "Forth-year game programmer/engineer student at ISART Digital particularly interested in video game AI",
     "about.skills": "Skills",
     "about.skills.programmingLanguages" : "<span>Programming Languages</span><br> C / C++ / C# / Python / Bash",
     "about.skills.gameEngine": "<span>Game Engine</span><br> Unreal Engine : C++ / Blueprint / Behaviour Tree / State Tree / Animation <br> Unity : C# / UI / Animation / New Input System",
@@ -126,7 +126,7 @@ const translations = {
     "header.greeting": "Salut, Je suis <span>Marius</span><br>Pointeau de France",
 
     "about.title": "À propos de moi",
-    "about.description": "Troisième année en Programmation de jeux vidéo à ISART Digital particulièrement intéressé par les IA dans le jeu vidéo",
+    "about.description": "Etudiant en quatrième année en Ingénieur Jeu vidéo/Game programming à ISART Digital particulièrement intéressé par les IA dans le jeu vidéo",
     "about.skills": "Compétences",
     "about.skills.programmingLanguages" : "<span>Languages de Programmation</span><br> C / C++ / C# / Python / Bash",
     "about.skills.gameEngine": "<span>Moteur de jeu</span><br> Unreal Engine : C++ / Blueprint / Behaviour Tree / State Tree / Animation <br> Unity : C# / UI / Animation / New Input System",

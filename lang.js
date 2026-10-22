@@ -150,7 +150,7 @@ const translations = {
     "contact.cv": "Télécharger le CV",
     "contact.submit": "Envoyer",
 
-    "copyright" : "Copyright 2024-2026 Marius Pointeau. Tous droits réservés.",
+    "copyright.rule" : "Copyright 2024-2026 Marius Pointeau. Tous droits réservés.",
 
     "learnmore": "En savoir plus",
     "seemore": "Voir plus",

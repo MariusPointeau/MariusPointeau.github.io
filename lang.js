@@ -10,7 +10,7 @@ const translations = {
     "header.greeting": "Hi, I'm <span>Marius</span> Pointeau<br> from France",
 
     "about.title": "About Me",
-    "about.description": "Forth-year game programmer/engineer student at ISART Digital particularly interested in video game AI",
+    "about.description": "Fourth-year game programmer/engineer student at ISART Digital particularly interested in video game AI",
     "about.skills": "Skills",
     "about.skills.programmingLanguages" : "<span>Programming Languages</span><br> C / C++ / C# / Python / Bash",
     "about.skills.gameEngine": "<span>Game Engine</span><br> Unreal Engine : C++ / Blueprint / Behaviour Tree / State Tree / Animation <br> Unity : C# / UI / Animation / New Input System",
